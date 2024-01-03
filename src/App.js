@@ -1,11 +1,10 @@
 import Chessboard from "./chessjs/Chessjs"
 //import Chessboard from "./chessboard/Chessboard"
-import SpeechRec from "./speechRecognition";
+//import SpeechRec from "./speechRecognition";
 
 function App() {
   return (
     <div className="App">
-      <SpeechRec />
       <Chessboard />
     </div>
   );
