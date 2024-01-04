@@ -1,0 +1,24 @@
+.fboxcontainer {
+	display: flex;
+}
+
+.transcriptbox {
+    height: 30px;
+}
+
+.leftcol {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.fboxleft {
+    justify-content: flex-start;
+}
+
+.fboxright {
+    justify-content: flex-end;
+}
+
+.fboxlength {
+    flex-basis: 500px;
+}
