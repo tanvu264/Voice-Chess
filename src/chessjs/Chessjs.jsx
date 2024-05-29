@@ -22,7 +22,21 @@ export default function Game() {
     return result; // null if the move was illegal, the move object if the move was legal
   }
 
-  function onDrop(sourceSquare, targetSquare) {
+  // moves a piece by drag and drop
+  function onHandDrop(sourceSquare, targetSquare) {
+    const move = makeAMove({
+      from: sourceSquare,
+      to: targetSquare,
+      promotion: promote()
+    });
+
+    // illegal move
+    if (move === null) return false;
+    return true;
+  }
+
+  // moves a piece by voice input
+  function onVoiceDrop(sourceSquare, targetSquare) {
     const move = makeAMove({
       from: srcSquare(),
       to: trgSquare(),
@@ -70,7 +84,7 @@ export default function Game() {
         <button onClick={startListening}>Start Listening</button>
         <button onClick={stopListening}>Stop Listening</button> 
         <button onClick={resetTranscript}>Reset</button>
-        <button onClick={onDrop}>Submit Move</button>
+        <button onClick={onVoiceDrop}>Submit Move</button>
       </div>
 
       <div>
@@ -81,7 +95,7 @@ export default function Game() {
           <option value="b">Bishop</option>
           <option value="n">Knight</option>
         </select>
-        <Chessboard position={game.fen()} onPieceDrop={onDrop} />
+        <Chessboard position={game.fen()} onPieceDrop={onHandDrop} />
       </div>
     </div>
     
