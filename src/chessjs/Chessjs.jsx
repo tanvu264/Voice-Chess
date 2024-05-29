@@ -81,13 +81,13 @@ export default function Game() {
         <div class="transcriptbox">
           {transcript}
         </div>
-        <button onClick={startListening}>Start Listening</button>
-        <button onClick={stopListening}>Stop Listening</button> 
-        <button onClick={resetTranscript}>Reset</button>
-        <button onClick={onVoiceDrop}>Submit Move</button>
+        <button class='button' onClick={startListening}>Start Listening</button>
+        <button class='button' onClick={stopListening}>Stop Listening</button> 
+        <button class='button' onClick={resetTranscript}>Reset</button>
+        <button class='button' onClick={onVoiceDrop}>Submit Move</button>
       </div>
 
-      <div>
+      <div class='rightcol'>
         <label htmlFor="choosePiece">Promote </label>
         <select onChange="promote()" id="choosePiece">
           <option value="q">Queen</option>

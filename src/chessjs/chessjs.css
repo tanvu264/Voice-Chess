@@ -22,3 +22,12 @@
 .fboxlength {
     flex-basis: 500px;
 }
+
+.leftcol {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    padding: 3px 15px;
+    margin-right: 5px;
+}
