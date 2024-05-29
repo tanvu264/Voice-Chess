@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.39bd5179.css",
-    "main.js": "/static/js/main.47054320.js",
-    "static/js/453.a945e621.chunk.js": "/static/js/453.a945e621.chunk.js",
-    "index.html": "/index.html",
-    "main.39bd5179.css.map": "/static/css/main.39bd5179.css.map",
-    "main.47054320.js.map": "/static/js/main.47054320.js.map",
-    "453.a945e621.chunk.js.map": "/static/js/453.a945e621.chunk.js.map"
+    "main.css": "/voice-chess/static/css/main.39bd5179.css",
+    "main.js": "/voice-chess/static/js/main.2439c5ab.js",
+    "static/js/787.d3d1472f.chunk.js": "/voice-chess/static/js/787.d3d1472f.chunk.js",
+    "index.html": "/voice-chess/index.html",
+    "main.39bd5179.css.map": "/voice-chess/static/css/main.39bd5179.css.map",
+    "main.2439c5ab.js.map": "/voice-chess/static/js/main.2439c5ab.js.map",
+    "787.d3d1472f.chunk.js.map": "/voice-chess/static/js/787.d3d1472f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39bd5179.css",
-    "static/js/main.47054320.js"
+    "static/js/main.2439c5ab.js"
   ]
 }
