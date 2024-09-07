@@ -1,0 +1,16 @@
+.rank {
+    display: flex;
+    flex-direction: row;
+}
+
+.lightsquare {
+    background-color: #F0D9B5;
+    height: 50px;
+    width: 50px;
+}
+
+.darksquare {
+    background-color: #B58863;
+    height: 50px;
+    width: 50px;
+}

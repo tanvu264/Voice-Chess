@@ -1,7 +1,7 @@
 {
   "name": "voice-chess",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://tanvu264.github.io/voice-chess/",
   "dependencies": {
     "@chrisoakman/chessboardjs": "^1.0.0",
